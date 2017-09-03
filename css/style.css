@@ -1193,7 +1193,7 @@ a.scrollup:hover{
 }
 
 /* PRELOADER FADE EFFECT CSS */
-.preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: hidden; background: #333 url('https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/20953700_10103745159477244_4139627241399869087_n.jpg?oh=7371d505af14d779066e51c2a54ac239&oe=5A2451EC') no-repeat center center;
+.preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/20953700_10103745159477244_4139627241399869087_n.jpg?oh=7371d505af14d779066e51c2a54ac239&oe=5A2451EC') no-repeat center center;
   
     -webkit-animation: fadeout 4s forwards; /* Safari, Chrome and Opera > 12.1 */
          -moz-animation: fadeout 4s forwards; /* Firefox < 16 */
