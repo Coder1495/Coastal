@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company-HTML Bootstrap theme</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Company-HTML Bootstrap theme</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link href="css/prettyPhoto.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" />	
-    <!-- =======================================================
+	<link href="css/style.css" rel="stylesheet" />
+	<!-- =======================================================
         Theme Name: Company
         Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
         Author: BootstrapMade
         Author URL: https://bootstrapmade.com
     ======================================================= -->
-  </head>
-  <!-- PRELOADER FADE EFFECT -->
-  <div class="preloader">
-		
-		  </div>
-  <body>
-	<header>		
+</head>
+<!-- PRELOADER FADE EFFECT -->
+<!--
+<div class="preloader">
+
+</div>
+-->
+<body>
+	<header>
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navigation">
-				<div class="container">					
+				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
 							<span class="sr-only">Toggle navigation</span>
@@ -36,37 +39,55 @@
 							<span class="icon-bar"></span>
 						</button>
 						<div class="navbar-brand">
-							<a href="index.html"><!--Header Logo Image Needs to be Clear Background--><h1><img src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/20901466_10103745159102994_8439098395847642372_o.jpg?oh=9273d350f381e2dc047f5b052083bf39&oe=5A366F9A" width="100"></h1></a>
+							<a href="index.html" class="hidden-xs hidden-sm">
+								<img src="coastal-logo-png.psd" style="width:300px; position:relative; top:-10px">
+							</a>
+							<a href="index.html" class="hidden-md hidden-lg visible-xs">
+								<img src="coastal-logo-png.psd" style="width:200px; position:relative; top:-10px">
+							</a>
+							<a href="index.html" class="hidden-md hidden-lg hidden-xs visible-sm">
+								<img src="coastal-logo-png.psd" style="width:200px; position:relative; top:4px">
+							</a>
 						</div>
 					</div>
-					
-					<div class="navbar-collapse collapse">							
+
+					<div class="navbar-collapse collapse">
 						<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">
 								<li role="presentation"><a href="index.html" class="active">Home</a></li>
 								<!-- About Us Page Link Commented Out Here: <li role="presentation"><a href="about.html">About Us</a></li> -->
-								<li role="presentation"><a href="services.html">Services</a></li>								
+								<li role="presentation"><a href="services.html">Services</a></li>
 								<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
 								<!--Blog Page Link Commented Out Here: <li role="presentation"><a href="blog.html">Blog</a></li>-->
-								<li role="presentation"><a href="contact.html">Contact</a></li>						
+								<li role="presentation"><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
-					</div>						
+					</div>
 				</div>
-			</div>	
-		</nav>		
+			</div>
+		</nav>
 	</header>
-	
+
 	<section id="main-slider" class="no-margin">
-        <div class="carousel slide">      
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(https://static.pexels.com/photos/342469/pexels-photo-342469.jpeg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2 class="animation animated-item-1">Providing Quality & Excellence in Restorations from Start to Finish<span> </span></h2>
-                                    <!--<p class="animation animated-item-2">Coastal Restoration and Contracting, Inc. is a residential and commercial construction company located in Orange County California and provides a wide range of construction services.</p> -->
+		<div class="carousel slide">
+			<div class="carousel-inner">
+				<div class="item active" style="background-image: url(https://static.pexels.com/photos/342469/pexels-photo-342469.jpeg)">
+					<div class="container">
+						<div class="row slide-margin">
+							<div class="col-sm-12 col-md-8 col-lg-8">
+								<div class="carousel-content">
+									<h2 class="animation animated-item-1">COASTAL RESTORATION & CONTRACTING INC.</h2>
+
+									<p class="animation animated-item-2">
+										<span class="home-title">
+											
+											<span class="home-subtitle">
+											A Residential and Commercial Construction 
+											company located in Orange County California 
+											providing a wide range of Services
+											</span>
+										</span>
+									</p>
                                     <a class="btn-slide animation animated-item-3" href="contact.html">Get a Quote!</a>
                                 </div>
                             </div>
@@ -223,9 +244,9 @@
 						<ul class="social-network">
 							<li><a href="https://www.facebook.com/Coastal-Restoration-and-Contracting-Inc-1625601721004654/" target="blank" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="https://www.yelp.com/biz/coastal-restoration-costa-mesa" target="blank" class="yelp tool-tip" title="Yelp"><i class="fa fa-yelp"></i></a></li>
-							<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+							<!-- <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+							<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li> -->
 						</ul>	
 					</div>
 				</div>

@@ -173,12 +173,20 @@ a:hover {
   padding: 0;
 }
 
+.home-title {
+  font-family: sans-serif; font-size: 32px; color: white;
+}
+
+.home-subtitle {
+  font-family: sans-serif; font-size: 32px; color: white;  
+}
+
 #main-slider .carousel .carousel-content {
   margin-top: 150px;
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin-top: 0px;
 }
 
 #main-slider .carousel h2 {
